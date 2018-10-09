@@ -25,4 +25,7 @@ public class Library {
     }
 
 
+    public void removeBook(Book book) {
+        collectionOfBooks.remove(book);
+    }
 }

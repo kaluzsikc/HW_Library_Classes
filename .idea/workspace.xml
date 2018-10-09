@@ -29,38 +29,69 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1300" />
+          <entry key="java" value="1785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1300" />
+          <entry key="JAVA" value="1785" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="412">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#211#212#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
                 <element signature="e#483#484#0" expanded="true" />
                 <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BorrowerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="335">
+              <caret line="64" column="31" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="64" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
@@ -430,8 +461,10 @@
         <option value="$PROJECT_DIR$/src/test/java/BooksTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Library.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BorrowerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Borrower.java" />
       </list>
     </option>
   </component>
@@ -496,7 +529,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539119710376" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539124171273" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
@@ -530,13 +563,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BorrowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BorrowerTest.canTakeBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="METHOD_NAME" value="canTakeBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.All in Library_test" />
       <item itemvalue="JUnit.BookTest.hasAuthor" />
+      <item itemvalue="JUnit.BorrowerTest.canTakeBooks" />
+      <item itemvalue="JUnit.BorrowerTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Library_test" />
+        <item itemvalue="JUnit.BorrowerTest" />
+        <item itemvalue="JUnit.BorrowerTest.canTakeBooks" />
         <item itemvalue="JUnit.BookTest.hasAuthor" />
       </list>
     </recent_temporary>
@@ -555,35 +610,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Library_test - 2018.10.09 at 21h 21m 34s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 21h 21m 45s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 21h 44m 33s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 21h 48m 25s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 21h 48m 42s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 21h 48m 49s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 22h 02m 11s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 22h 02m 29s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Library_test - 2018.10.09 at 22h 02m 46s.xml">
-      <configuration name="All in Library_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Library_test - 2018.10.09 at 22h 04m 49s.xml">
       <configuration name="All in Library_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Library_test - 2018.10.09 at 22h 13m 50s.xml">
+      <configuration name="All in Library_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Library_test - 2018.10.09 at 23h 07m 47s.xml">
+      <configuration name="All in Library_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BorrowerTest_canTakeBooks - 2018.10.09 at 23h 13m 56s.xml">
+      <configuration name="BorrowerTest.canTakeBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BorrowerTest_canTakeBooks - 2018.10.09 at 23h 14m 44s.xml">
+      <configuration name="BorrowerTest.canTakeBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Library_test - 2018.10.09 at 23h 19m 14s.xml">
+      <configuration name="All in Library_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Library_test - 2018.10.09 at 23h 21m 29s.xml">
+      <configuration name="All in Library_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Library_test - 2018.10.09 at 23h 22m 37s.xml">
+      <configuration name="All in Library_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Library_test - 2018.10.09 at 23h 25m 07s.xml">
+      <configuration name="All in Library_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BorrowerTest - 2018.10.09 at 23h 26m 19s.xml">
+      <configuration name="BorrowerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -669,16 +724,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="412">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -701,15 +757,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="335">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="64" selection-end-column="31" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BorrowerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
